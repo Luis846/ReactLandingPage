@@ -34,18 +34,18 @@ export class Nav extends React.Component {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link text-white" href="#">
-								Features
+								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link text-white" href="#">
-								Pricing
+								Services
 							</a>
 						</li>
 
 						<li className="nav-item">
 							<a className="nav-link text-white" href="#">
-								Pricing
+								Contact
 							</a>
 						</li>
 					</ul>

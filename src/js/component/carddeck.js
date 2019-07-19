@@ -31,13 +31,15 @@ let cardsF = cardsDeck.map((e, i) => {
 	return (
 		<div className="card" key={i}>
 			<img className="card-img-top" src={e.image} alt="Card image cap" />
-			<div className="card-body">
+			<div className="card-body text-center">
 				<h5 className="card-title">{e.title}</h5>
 				<p className="card-text">{e.text}</p>
-				<p className="card-text">
-					<small className="text-muted">
-						Last updated 3 mins ago
-					</small>
+				<div className="dropdown-divider mb-3" />
+				<a href="#" className="btn btn-primary">
+					Find Out More!
+				</a>
+				<p className="card-text bg-light">
+					<small className="text-muted" />
 				</p>
 			</div>
 		</div>
