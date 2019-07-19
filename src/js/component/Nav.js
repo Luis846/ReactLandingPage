@@ -24,7 +24,9 @@ export class Nav extends React.Component {
 					</button>
 					<div className="collapse navbar-collapse" id="navbarNav" />
 
-					<ul className="navbar-nav">
+					<ul
+						className="navbar-nav"
+						style={{ paddingRight: "160px" }}>
 						<li className="nav-item active">
 							<a className="nav-link text-white" href="#">
 								Home <span className="sr-only">(current)</span>
