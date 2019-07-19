@@ -8,7 +8,7 @@ export class Jumbotron extends React.Component {
 					className="jumbotron mt-4 mx-auto shadow"
 					style={{ width: "75%" }}>
 					<h1 className="display-4" style={{ fontSize: "75px" }}>
-						A Warm Welcome!
+						A <span className="warm">Warm</span> Welcome!
 					</h1>
 					<p className="lead">
 						This is a simple hero unit, a simple jumbotron-style
