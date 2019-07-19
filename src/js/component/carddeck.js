@@ -29,7 +29,7 @@ const cardsDeck = [
 
 let cardsF = cardsDeck.map((e, i) => {
 	return (
-		<div className="card" key={i}>
+		<div className="card shadow" key={i}>
 			<img className="card-img-top" src={e.image} alt="Card image cap" />
 			<div className="card-body text-center">
 				<h5 className="card-title">{e.title}</h5>

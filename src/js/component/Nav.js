@@ -8,7 +8,7 @@ export class Nav extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+				<nav className="navbar navbar-expand-lg navbar-light bg-dark shadow">
 					<a className="navbar-brand text-white" href="#">
 						Start Bootstrap
 					</a>

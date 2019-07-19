@@ -5,7 +5,7 @@ export class Jumbotron extends React.Component {
 		return (
 			<div>
 				<div
-					className="jumbotron mt-4 mx-auto"
+					className="jumbotron mt-4 mx-auto shadow"
 					style={{ width: "75%" }}>
 					<h1 className="display-4" style={{ fontSize: "75px" }}>
 						A Warm Welcome!
