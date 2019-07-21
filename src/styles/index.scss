@@ -9,15 +9,59 @@
     other sylesheets into your bunde as well, e.j:
 
     import 'relative/path/to/stylesheet.scss';
-
 */
-// body{
-//     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1490535004195-099bc723fa1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2080&q=80');
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-// }
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1515133997814-e6460be24073?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+  }
 
 .warm{
-    color: red;
+    color: #23A6D5;
+}
+
+.navbar{
+    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5, rgb(109, 236, 147));
+    animation: Gradient 15s ease infinite;
+    background-size: 400% 400%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.foots{
+    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5, rgb(109, 236, 147));
+    animation: Gradient 15s ease infinite;
+    background-size: 400% 400%;
+    width: 100%;
+}
+.cardsRow:hover{
+  animation: pulse 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+      }
+  50% {
+      transform: scale(1.1);
+  }
+  100% { transform: scale(1);
+  }
+  }
+
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }

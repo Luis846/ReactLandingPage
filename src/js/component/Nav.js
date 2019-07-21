@@ -10,7 +10,7 @@ export class Nav extends React.Component {
 			<div>
 				<nav className="navbar navbar-expand-lg navbar-light bg-dark shadow">
 					<a className="navbar-brand text-white" href="#">
-						Start Bootstrap
+						Nordic Travels
 					</a>
 					<button
 						className="navbar-toggler"
