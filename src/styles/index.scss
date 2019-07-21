@@ -23,7 +23,7 @@ body{
 }
 
 .navbar{
-    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5, rgb(109, 236, 147));
+    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5);
     animation: Gradient 15s ease infinite;
     background-size: 400% 400%;
     position: fixed;
@@ -31,8 +31,28 @@ body{
     top: 0;
 }
 
+.navbar-brand,
+.nav-link{
+    text-shadow: 1px 1px 2px #000;
+}
+
+.nav-link:link,
+.nav-link:visited{
+    font-size: 90%;
+   color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    border-bottom: 2px solid #3498db;
+    transition: border-bottom 0.3s;
+}
+
 .foots{
-    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5, rgb(109, 236, 147));
+    background: linear-gradient(-45deg, rgb(114, 110, 110), rgb(0, 0, 0), #23A6D5);
     animation: Gradient 15s ease infinite;
     background-size: 400% 400%;
     width: 100%;

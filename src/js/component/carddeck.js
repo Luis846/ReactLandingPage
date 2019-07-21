@@ -22,7 +22,7 @@ const cardsDeck = [
 	},
 	{
 		image:
-			"https://images.unsplash.com/photo-1529963183134-61a90db47eaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+			"https://images.unsplash.com/photo-1485601284679-a2f86e6f7dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
 		title: "Land of the Nords",
 		text: "Lorem ipsum dolor amet tilde humblebrag neutra polaroid"
 	}
