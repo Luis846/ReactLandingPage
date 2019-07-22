@@ -5,7 +5,9 @@ export class Form extends React.Component {
 		return (
 			<div className="bg-white rounded mt-5 forms mx-auto shadow">
 				<form>
-					<h1 className="text-center">Contact Us!</h1>
+					<h1 className="text-center">
+						<span className="contact">Contact</span> Us!
+					</h1>
 					<div className="dropdown-divider" />
 					<div className="form-group row mt-5">
 						<div className="col-md-4 mb-3">
