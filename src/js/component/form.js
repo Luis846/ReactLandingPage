@@ -96,9 +96,11 @@ export class Form extends React.Component {
 							</label>
 						</div>
 					</div>
-					<button className="btn btn-primary" type="submit">
-						Submit form
-					</button>
+					<div className="d-flex justify-content-center">
+						<button className="btn btn-primary" type="submit">
+							Submit form
+						</button>
+					</div>
 				</form>
 			</div>
 		);
