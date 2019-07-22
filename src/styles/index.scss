@@ -29,6 +29,7 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 40;
 }
 
 .navbar-brand,
@@ -60,6 +61,13 @@ body{
 .cardsRow:hover{
   animation: pulse 1s;
   animation-timing-function: linear;
+}
+
+
+.forms{
+    width: 75%;
+    padding: 20px;
+
 }
 
 @keyframes pulse {

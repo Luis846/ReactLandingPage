@@ -57,7 +57,7 @@ module.exports = {
       Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
     }),
     new HtmlWebpackPlugin({
-         favicon: 'NordicTravels.ico',
+        favicon: 'NordicTravels.ico',
         template: 'template.html'
     }),
     new PrettierPlugin({
